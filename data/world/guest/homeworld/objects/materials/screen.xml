@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Screen" shader="Diffuse">
+	<Texture name="_MainTex" file="home3d-screen.jpg"/>
+</Material>

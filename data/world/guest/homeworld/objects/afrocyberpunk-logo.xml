@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="Logo">
+	<Model file="afrocyberpunk-logo.glb" solid="true">
+		<Mesh name="Logo" material="logo" convex="true"/>
+		<Mesh name="GlassCase" material="glass01" shadow="true" shadowSize="0.2" convex="true"/>
+	</Model>
+</Object>

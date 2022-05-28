@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Ground" shader="Unlit">
+	<Texture name="_MainTex" file="ground.jpg"/>
+</Material>

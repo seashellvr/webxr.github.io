@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Animation name="Animation1" loop="0" label="Begin Ride">
+	<Spline a="0,0,0" b="5,0,0" r="0,0,0" t="5"/>
+</Animation>

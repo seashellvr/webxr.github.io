@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="Globe">
+	<Model file="globe.obj" solid="true">
+		<Mesh name="Globe" material="globe" shadow="true" shadowSize="0.3" convex="true" rotate="0,0.25,0" rotation="0,0,-16.8" position="-0.43,0.06,0"/>
+		<Mesh name="Stand" material="globe" convex="true"/>
+	</Model>
+</Object>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="HomeCinema">
+	<Model name="Boat" file="boat.glb" solid="true" static="true">
+		<Mesh name="Boat" material="boat" cullingDistance="250"/>
+	</Model>
+</Object>

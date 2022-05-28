@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="Airplane">
+	<Model name="Airplane" file="airplane.glb" solid="true">
+		<Mesh name="Body" material="airplane" convex="true"  cullingDistance="240"/>
+		<Mesh name="Windshield" material="window-glass" convex="true" cullingDistance="50"/>
+	</Model>
+</Object>

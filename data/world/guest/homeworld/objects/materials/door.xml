@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Door" shader="Unlit">
+	<Texture name="_MainTex" file="door-tex.jpg"/>
+</Material>

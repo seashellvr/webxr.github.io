@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="CarTire" shader="Unlit">
+	<Texture name="_MainTex" file="car-tire.jpg"/>
+</Material>

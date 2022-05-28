@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="HomeCinema">
+	<Model name="Cinema" file="cinema.obj" solid="true" static="true">
+		<Mesh name="Building" material="building2"/>
+		<Mesh name="Display" material="display3"/>
+		<Mesh name="Floor" material="floor2" collider="box" floor="true"/>
+		<Mesh name="SofaLeather" material="sofa-leather2"/>
+		<Mesh name="PlantLeft" material="plant-right"/>
+		<Mesh name="PlantRight" material="plant-left"/>
+	</Model>
+</Object>

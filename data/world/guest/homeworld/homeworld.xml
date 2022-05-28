@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<World name="homeworld" title="SeashellVR" lang="en" os_version="0.1.4-12">
+  <Scene name="HomeScene" title="Home" class="home" motion="enabled" wait="false" size="850" skybox="daytime360" spinY="-0.0015" isIndoors="true" dashboard="enabled" playerPosition="1.43887,2.56975,6.34447" playerRotation="0,129.6309,0">
+    <App name="Dashboard" followPlayer="true" />
+    <Environment name="IslandEnv" motion="enabled" wait="false" hideDashboard="false">
+      <Object name="Ocean" model="ocean" scale="960,1,960" position="-80,-2.25,100" hover="0.2,0.1" />
+      <Object name="Boat" model="boat" position="-37,-2.3,-5.34" rotation="0,180,0" scale="1.25,1.25,1.25" hover="0.36,0.05">
+        <Action name="BoatSeat" label="Enter" action="Sit" position="0,0.8,0.84" radius="1" range="5" rotation="0,0,0" seatHeight="0" />
+      </Object>
+      <Action name="Door" label="Exit Home" altLabel="Enter Home" action="UseDoor" position="4.55,1.46,-7.45" objMode="true" radius="0.375" range="4" rotation="0,0,0">
+        <Spawn name="Exit" position="0,0,-1" />
+        <Spawn name="Enter" position="0,0,1" />
+      </Action>
+      <Action name="LighthouseEntry" label="Exit" altLabel="Enter" action="UseDoor" entryIsExit="true" position="-171,45,405.5" objMode="true" radius="0.375" range="4" rotation="0,0,0">
+        <Spawn name="Exit" position="0,0,1" />
+        <Spawn name="Enter" position="0,22.5,-1.9" />
+      </Action>
+      <Vehicle name="ArcadeCar" model="arcade-car" position="0,1.75,-28" rotation="0,180,0" car="arcade">
+        <Action name="DriverSeat" label="Drive" action="Drive" isDriverSeat="true" position="-0.35,0,-0.3" type="carseat" rotation="0,0,0" seatHeight="-0.25" />
+        <Action name="PassengerSeat" label="Sit Down" action="Drive" isPassengerSeat="true" position="0.35,0,0.3" rotation="0,0,0" type="carseat" seatHeight="-0.35" />
+      </Vehicle>
+      <Object name="Island" model="island" position="1,0,0" rotation="0,180,0" scale="1.25,1.25,1.25" />
+      <Zone name="HomeZone" position="1.25,1.63,-0.45" scale="10,5,14" type="indoors" />
+      <Object name="Ligthouse" model="lighthouse" position="-171,42,402" rotation="0,180,0" scale="1.25,1.25,1.25">
+        <Zone name="Ligthouse" model="lighthouse" position="0,21,0" scale="5,5,5" />
+      </Object>
+      <Object name="Airplane" model="airplane" position="118.235,41.07504,406.1339" rotation="348.0683,240.0589,0.002487423" scale="1,1,1" deleted="false" />
+      <Tree name="YardTree" type="TreeB" position="8.35,0.346,-23.53" randomY="true" rotation="1,1,1" scale="0.5,0.5,0.5" />
+      <Tree name="YardTree" type="TreeB" position="0.59,0.346,-23.53" randomY="true" rotation="1,120,1" scale="0.5,0.5,0.5" />
+      <Tree name="YardTree" type="TreeB" position="-10.85,-1.56,-4.3" randomY="true" rotation="1,60,1" scale="0.7,0.7,0.7" />
+      <Tree name="TallTree" type="TreeC" position="-26.27,3.64,-60.85" randomY="true" rotation="1,160,1" />
+      <Tree name="TallTree" type="TreeC" position="-24.9,3.64,-42.93" randomY="true" rotation="1,10,1" />
+      <Tree name="TallTree" type="TreeC" position="-20.33,2.06,-42.93" randomY="true" rotation="1,50,1" />
+      <Tree name="TallTree" type="TreeC" position="-15.78,2.97,-67.04" randomY="true" rotation="1,140,1" />
+      <Tree name="TallTree" type="TreeC" position="-7.81,1.61,-70.92" randomY="true" rotation="1,90,1" />
+      <Tree name="TallTree" type="TreeC" position="-1.43,0.87,-74.3" randomY="true" rotation="1,190,1" />
+      <Tree name="TallTree" type="TreeC" position="7.29,0.13,-71.64" randomY="true" rotation="1,90,1" />
+      <Tree name="TallTree" type="TreeC" position="15.93,0.74,-66.63" randomY="true" rotation="1,90,1" />
+      <Tree name="Grass1" type="GrassA" position="-11.51,-1.026,-6,12" randomY="true" rotation="1,90,1" />
+      <Tree name="Grass2" type="GrassAShadow" position="-10.47,-1.224,-2.47" randomY="true" rotation="1,90,1" />
+      <Tree name="Fern1" type="FernA" position="5.622,0.293,-10.379" randomY="true" rotation="1,-42,1" />
+      <Tree name="Fern2" type="FernA" position="2.76,0.118,-10.379" randomY="true" rotation="1,-23.2,1" />
+      <Tree name="Fern3" type="FernA" position="-7.14,-1.066,-1.264" randomY="true" rotation="1,-69,1" />
+      <SoundFX name="BirdSongFX" file="birdsong.ogg" loop="true" maxDistance="30" spatial="1" position="0,1,-20" level="0.3" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="20" spatial="0.9" position="0,1,25" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="18" spatial="1" position="-16,1,16" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="15" spatial="1" position="-30,1,-2" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="15" spatial="1" position="-57,1,-26" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="20" spatial="1" position="-144,1,5" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="80" spatial="1" position="-197,1,133" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="80" spatial="1" position="-167,1,300" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="80" spatial="1" position="10,1,300" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="80" spatial="1" position="78,1,154" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="30" spatial="1" position="87,1,70" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="30" spatial="1" position="32,1,30" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="300" spatial="1" position="300,1,-280" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="300" spatial="1" position="-382,1,-280" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="300" spatial="1" position="-602,1,316" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="300" spatial="1" position="-131,1,634" level="0.35" />
+      <SoundFX name="OceanSoundFX" file="ocean-loop.ogg" loop="true" maxDistance="300" spatial="1" position="420,1,400" level="0.35" />
+    </Environment>
+    <SphereIcon name="360PhotoIcon" position="-3.613,1.994,0.35" scale="0.3,0.3,0.3" path="/user/home/$user/Images/afrocyberpunk-360.jpg" spin="0,1,0" hover="0.25,0.025" />
+    <Action name="Couch1Seat1" label="Sit Down" action="Sit" position="-1.54,0.81,-4.24" rotation="0,180,0" />
+    <Action name="Couch1Seat2" label="Sit Down" action="Sit" position="-0.39,0.81,-4.24" rotation="0,180,0" />
+    <Action name="Couch1Seat3" label="Sit Down" action="Sit" position="0.64,0.81,-4.24" rotation="0,180,0" />
+    <Action name="Couch2Seat1" label="Sit Down" action="Sit" position="-1.42,1.2,3.42" rotation="0,-90,0" />
+    <Action name="Couch2Seat2" label="Sit Down" action="Sit" position="-0.41,1.2,3.42" rotation="0,-45,0" />
+    <Action name="Couch2Seat3" label="Sit Down" action="Sit" position="0.61,1.2,3.42" rotation="0,-45,0" />
+    <Action name="Couch2Seat4" label="Sit Down" action="Sit" position="0.61,1.2,4.86" rotation="0,-90,0" />
+    <RecycleBin name="Recycle" wait="true" position="3.12,0.689,4.269" />
+    <Action name="OfficeChairSeat" label="Sit Down" action="Sit" range="3" position="4.39,1.5,3.1" />
+    <Object name="VRHeadset" model="vrheadset" position="5.681549,1.848785,0.4276418" rotation="352.9394,346.394,0.02657384" deleted="false">
+      <Action name="GrabObject" label="Pick Up" action="Grab" type="object" position="1,0,0" />
+    </Object>
+    <Object name="Globe" model="globe" position="5.585524,1.774832,-0.443495" scale="0.2,0.2,0.2" rotation="0.01125782,267.2776,0.03566708" deleted="false">
+      <Action name="GrabObject" label="Pick Up" action="Grab" type="object" position="0,0,0" />
+    </Object>
+    <Object name="Flag" model="flag" position="-3.627042,2.378945,0.3140332" scale="0.1,0.1,0.1" rotation="359.8107,74.9989,0.2468799" deleted="false">
+      <Action name="GrabObject" label="Pick Up" action="Grab" type="object" position="0,0,0" />
+    </Object>
+    <Object name="Logo" model="afrocyberpunk-logo" position="-3.684,2.437972,-0.223" scale="0.066,0.066,0.066" rotation="2.395355E-05,72.9998,-0.0001021863" deleted="false">
+      <Action name="GrabObject" label="Pick Up" action="Grab" type="object" position="0,0,0" />
+    </Object>
+    <Object name="Mask" model="mask" position="-3.831855,1.940282,1.232275" scale="0.2,0.2,0.2" rotation="345.6335,103.8405,3.24713" deleted="false">
+      <Action name="GrabObject" label="Pick Up" action="Grab" type="object" position="0,0,0" />
+    </Object>
+    <App name="Terminal" position="4.385,2.055,4.6" width="1302" height="744" scale="1,1,1" wallpaper="/user/home/$user/Images/wallpaper-mohammad-alizade-1280x720-unsplash.jpg" screensaver0="NeonLightTunnel.mp4" screensaver1="RetroSynthwave.mp4" sleepTimeout="45" powered="false" kbOffsetY="-30" kbOffsetZ="0" realDisplay="true" triggerDistance="4" wait="true" />
+    <App name="VideoPlayer" position="-0.41,1.865,-7.212" video="/user/home/guest/Videos/3D Demo Reel.mp4" loop="one" volume="0.25" triggerDistance="7" rotation="0,180,0" width="1695" height="920" fullscreen="false" isPlaying="false" maximized="false" minimized="false" frame="60" immersive="false" realDisplay="true" lastPosition="0,0,0" />
+    <App name="AudioPlayer" position="2.927,2.597,6.097" scale="1,1,1" rotation="0,90,0" audio="/user/home/guest/Music/cabdriver.ogg" loop="one" volume="0.25" isPlaying="false" maximized="false" minimized="false" time="0" width="850" height="512" triggerDistance="3" lastPosition="0,0,0" />
+    <App name="WebBrowser" url="https://www.afrocyberpunk.com" keyboard="enabled" maximized="false" minimized="false" position="-3.83,2.2,4.4" rotation="0,270,0" lastPosition="0,0,0" />
+    <App name="AdPlayer" type="Banner1x2" position="-3.868,1.72,-1.37" rotation="0,-90,0" scale="0.75,0.75,0.75" />
+  </Scene>
+  <Scene name="CinemaScene" title="Cinema" wait="true" motion="enabled" playerPosition="0,1.937626,0" isIndoors="true" dashboard="enabled" playerRotation="0,349.4,0">
+    <App name="Dashboard" followPlayer="false" triggerDistance="15" />
+    <Environment name="CinemaEnv" motion="enabled" wait="false" hideDashboard="false">
+      <Object name="HomeCinema" model="cinema" position="0,0,0" rotation="0,180,0" scale="1.25,1.25,1.25" />
+      <App name="VideoPlayer" position="-0.045,2.07,-2.856" video="/user/home/guest/Videos/3D Demo Reel.mp4" loop="one" volume="0.5" triggerDistance="9" rotation="0,180,0" width="2410" height="1100" fullscreen="false" isPlaying="false" maximized="false" minimized="false" frame="-1" immersive="false" realDisplay="true" lastPosition="0,0,0" />
+      <Action name="Couch1Seat1" label="Sit Down" action="Sit" position="-1.155,1.143,1.492" rotation="0,180,0" />
+      <Action name="Couch1Seat2" label="Sit Down" action="Sit" position="-0.004,1.143,1.492" rotation="0,180,0" />
+      <Action name="Couch1Seat3" label="Sit Down" action="Sit" position="1.025,1.143,1.492" rotation="0,180,0" />
+    </Environment>
+  </Scene>
+  <Scene name="ArcadeScene" title="Arcade" wait="true" motion="enabled" size="80" isIndoors="true" dashboard="enabled">
+    <App name="Dashboard" />
+    <Environment name="ArcadeEnv" motion="enabled" wait="false" hideDashboard="false">
+      <Object name="ArcadeRoom" model="arcade" position="0,0,0" rotation="0,0,0" scale="1,1,1" />
+    </Environment>
+  </Scene>
+  <Scene name="RollercoasterScene" title="Rollercoaster" wait="true" motion="enabled" isIndoors="false" dashboard="enabled">
+    <App name="Dashboard" />
+    <Environment name="RollercoasterEnv" motion="enabled" wait="false" hideDashboard="false">
+      <Sphere name="Skybox" photo="daytime360" spin="0,0.01,0" size="700" />
+      <Object name="Coaster" model="coaster" position="10,-5,50" rotation="0,0,0" scale="0.5,0.5,0.5" />
+      <Object name="Ride" model="ride" position="0,0,0" rotation="0,0,0">
+        <Animation script="animation" position="0,0,0">
+          <Action name="Animate" label="Begin Ride" action="Animate" position="1,0,0" />
+        </Animation>
+      </Object>
+    </Environment>
+  </Scene>
+</World>

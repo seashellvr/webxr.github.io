@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="RecycleBin" shader="Unlit">
+	<Texture name="_MainTex" file="recycle-bin.jpg"/>
+</Material>

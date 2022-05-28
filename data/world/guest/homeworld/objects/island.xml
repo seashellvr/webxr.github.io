@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="HomeIsland">
+	<Model name="Island" file="island.obj" solid="true" static="true" textureAtlas="true">
+		<Mesh name="Building" material="building" cullingDistance="240" splitMesh="true" gridSize="8" />
+		<Mesh name="Cabinet" material="cabinet" cullingDistance="50"/>
+		<Mesh name="Ceiling" material="ceiling"/>
+		<Mesh name="Chair" material="chair" cullingDistance="50" />
+		<Mesh name="CoffeeTable" material="coffee-table1" cullingDistance="50"/>
+		<Mesh name="Display1" material="display1" cullingDistance="50"/>
+		<Mesh name="Display2" material="display2" cullingDistance="50"/>
+		<Mesh name="Divider1" material="divider1" cullingDistance="150"/>
+		<Mesh name="Divider2" material="divider2" cullingDistance="150"/>
+		<Mesh name="Exterior" material="exterior" splitMesh="true" gridSize="8"/>
+		<Mesh name="Floor" material="floor" collider="box" floor="true"  cullingDistance="250" static="true"/>
+		<Mesh name="GlassDoor" material="window-glass" solid="false"  cullingDistance="200"  static="true"/>
+		<Mesh name="OfficeDesk" material="office-desk1"  cullingDistance="250"/>
+		<Mesh name="Painting1" material="painting1"  cullingDistance="50" static="true"/>
+		<Mesh name="Painting2" material="painting2"  cullingDistance="50" static="true"/>
+		<Mesh name="Pier" material="pier" splitMesh="true" gridSize="8"/>
+		<Mesh name="Plant01" material="plant1" cullingDistance="150"/>
+		<Mesh name="Plant02" material="plant2" cullingDistance="150"/>
+		<Mesh name="Plant03" material="plant3" cullingDistance="150"/>
+		<Mesh name="Plant04" material="plant4" cullingDistance="50"/>
+		<Mesh name="Plant05" material="plant5" cullingDistance="50"/>
+		<Mesh name="Posters" material="posters" cullingDistance="50"/>
+		<Mesh name="Poster7" material="poster7" cullingDistance="50"/>
+		<Mesh name="Poster8" material="poster8" cullingDistance="50"/>
+		<Mesh name="Poster9" material="poster9" cullingDistance="50"/>
+		<Mesh name="RecycleBin" material="recycle-bin" cullingDistance="25"/>
+		<Mesh name="SofaLeather" material="sofa-leather" cullingDistance="50"/>
+		<Mesh name="SofaWhite" material="sofa-white"  cullingDistance="250"/>
+		<Mesh name="Terrain" material="terrain" floor="true" splitMesh="true" gridSize="64" cullingDistance="640"/>
+		<Mesh name="Windows" material="window-glass" cullingDistance="150"  static="true"/>
+		<Mesh name="Road" material="road" floor="true" isOutdoors="true" splitMesh="true" gridSize="64" cullingDistance="360"/>
+	</Model>
+</Object>	

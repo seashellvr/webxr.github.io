@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Sofa1" shader="Standard">
+	<Texture name="_MainTex" file="hepburn.jpg">
+		<Tiling x="1" y="1"/>
+	</Texture>
+</Material>

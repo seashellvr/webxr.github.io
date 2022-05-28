@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Poster8" shader="Unlit">
+	<Texture name="_MainTex" file="poster8-tex.jpg"/>
+</Material>

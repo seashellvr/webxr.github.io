@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="CarDoorLeft" shader="Unlit">
+	<Texture name="_MainTex" file="car-door-left.jpg"/>
+</Material>

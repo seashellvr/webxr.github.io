@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="Flag">
+	<Model file="flag.glb" solid="true">
+		<Mesh name="objFlag" material="flag" shadow ="true"  shadowSize="0.1" convex="true"/>
+	</Model>
+</Object>

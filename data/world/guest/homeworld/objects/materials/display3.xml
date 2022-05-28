@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Display3" shader="Unlit">
+	<Texture name="_MainTex" file="display3.jpg"/>
+</Material>

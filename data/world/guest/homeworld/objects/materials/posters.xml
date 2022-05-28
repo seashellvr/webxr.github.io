@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Posters" shader="Unlit">
+	<Texture name="_MainTex" file="poster-atlas.jpg"/>
+</Material>

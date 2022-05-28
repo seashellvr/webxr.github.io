@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Divider1" shader="Unlit">
+	<Texture name="_MainTex" file="divider1.jpg"/>
+</Material>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="Car">
+	<Model name="Car" file="arcade-car.glb" static="false" shadowSize="0.1" solid="true" car="true">
+		<Mesh name="Body" material="car-body" solid="true" convex="true"/>
+		<Mesh name="SteeringWheel" material="car-steer" solid="true" convex="true"/>
+		<Mesh name="MirrorCenter" material="mirror" fov="30" width="256" height="128" solid="false"/>
+		<Mesh name="MirrorLeft" material="mirror" fov="30" width="128" height="128" solid="false" />
+		<Mesh name="MirrorRight" material="mirror" fov="30" width="128" height="128" solid="false"/>
+		<Mesh name="DoorFrontLeft" material="car-door-left" solid="true" convex="true"/>
+		<Mesh name="DoorFrontRight" material="car-door-right" solid="true" convex="true"/>
+		<Mesh name="TireFrontLeft" material="car-tire"  carPart="fl-wheel" solid="true" convex="true"/>
+		<Mesh name="TireFrontRight" material="car-tire" carPart="fr-wheel" solid="true" convex="true"/>
+		<Mesh name="TireBackLeft" material="car-tire" carPart="bl-wheel" solid="true" convex="true"/>
+		<Mesh name="TireBackRight" material="car-tire" carPart="br-wheel" solid="true" convex="true"/>
+		<Mesh name="Windshield" material="car-glass" solid="true" convex="true"/>
+		<Mesh name="WindowTrunk" material="car-glass" solid="true" convex="true"/>
+		<Mesh name="WindowFrontLeft" material="car-glass" solid="true" convex="true"/>
+		<Mesh name="WindowFrontRight" material="car-glass" solid="true" convex="true"/>
+		<Mesh name="WindowBackLeft" material="car-glass" solid="true" convex="true"/>
+		<Mesh name="WindowBackRight" material="car-glass" solid="true" convex="true"/>
+	</Model>
+</Object>

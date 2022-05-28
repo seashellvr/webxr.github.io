@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Water" shader="Water">
+	<Range name="_WaveScale" value="0.028"/>
+	<Range name="_ReflDistort" value="0.44"/>
+	<Range name="_RefrDistort" value="0.4"/>
+	<Color name="_RefrColor" r="0.34" g="0.85" b="0.92"/>
+	<Texture name="_Fresnel" file="WaterFresnel" type="default">
+	</Texture>
+	<Texture name="_BumpMap" file="WaterBump" type="default">
+	</Texture>
+	<Vector name ="_WaveSpeed" x="19" y="9" z="-16" w="-7"/>
+	<Texture name="_ReflectiveColor" file="WaterDay" type="default">
+	</Texture>
+	<Color name="_HorizonColor" r="0.63" g="0.79" b="0.73"/>
+</Material>

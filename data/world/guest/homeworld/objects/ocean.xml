@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="Ocean">
+	<Model file="circle-mesh.obj" src="native" static="true" solid="false">
+		<Mesh name="Circle" material="water" splitMesh="false" gridSize="0.1"/>
+	</Model>
+</Object>

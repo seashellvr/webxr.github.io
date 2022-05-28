@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="Glass01" shader="SimpleGlass">
+	<Texture name="_MainTex" file="glass01.png"/>
+	<Color name="_Color" r="0.25" g="0.25" b="0.5" a="0.2"/>
+</Material>

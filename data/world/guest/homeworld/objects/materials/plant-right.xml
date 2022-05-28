@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Material name="PlantRight" shader="Unlit">
+	<Texture name="_MainTex" file="plant-right.jpg"/>
+</Material>

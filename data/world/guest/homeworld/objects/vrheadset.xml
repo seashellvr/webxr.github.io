@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Object name="VRHeadset">
+	<Model file="vr-headset.obj" solid="true">
+		<Mesh name="VR_simple" material="vrheadset" shadow="true" shadowSize="0.2" convex="true"/>
+	</Model>
+</Object>
