@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+	<MenuItem name="File">
+		<MenuItem name="Import File(s)">
+			<Window name="FileSelector" mimetype="all" type="import"></Window>
+		</MenuItem>
+		<MenuItem name="Properties">
+			<Window name="Properties" folder="true"></Window>
+		</MenuItem>
+		<MenuItem name="Close">
+			<Action name="Close"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Edit">
+		<MenuItem name="Preferences">
+			<Window name="Settings"></Window>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Window">
+		<MenuItem name ="Maximize">
+			<Action name="Maximize"/>
+		</MenuItem>
+		<MenuItem name ="Minimize">
+			<Action name="Minimize"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Help">
+		<MenuItem name ="About">
+			<Window name="Dialog" content="text" title="About File Browser">
+				<Text>File Browser
+				<b>File Browser</b> is a Seashell App for browsing files and folders. Browse your local files or import new files from external storage devices.</Text>
+			</Window>
+		</MenuItem>
+	</MenuItem>
+</Menu>	

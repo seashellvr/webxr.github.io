@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+	<MenuItem name="Audio">
+		<MenuItem name="Open">
+			<Window name="FileSelector" mimetype="audio"></Window>
+		</MenuItem>
+		<MenuItem name="Import Audio">
+			<Window name="FileSelector" mimetype="audio" type="import"></Window>
+		</MenuItem>
+		<MenuItem name="Audio Properties">
+			<Window name="Dialog" window="dialog" content="image-properties"></Window>
+		</MenuItem>
+		<MenuItem name="Close">
+			<Action name="Close"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Options">
+		<MenuItem name ="Settings"></MenuItem>
+	</MenuItem>
+	<MenuItem name="Window">
+		<MenuItem name ="Maximize">
+			<Action name="Maximize"/>
+		</MenuItem>
+		<MenuItem name ="Minimize">
+			<Action name="Minimize"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Help">
+		<MenuItem name ="About">
+			<Window name="Dialog" window="dialog" content="text">
+				<Text>Video Player is a Seashell App for viewing 2D and 3D videos. Browse your video gallery or import new videos from external storage devices.</Text>
+			</Window>
+		</MenuItem>
+	</MenuItem>
+</Menu>

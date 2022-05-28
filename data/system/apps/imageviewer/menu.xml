@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Menu>
+	<MenuItem name="Image">
+		<MenuItem name="Open Image">
+			<Window name="FileSelector" mimetype="image"></Window>
+		</MenuItem>
+		<MenuItem name="Import Image(s)">
+			<Window name="FileSelector" mimetype="image" type="import"></Window>
+		</MenuItem>
+		<MenuItem name="Image Properties">
+			<Window name="Properties"></Window>
+		</MenuItem>
+		<MenuItem name="Close">
+			<Action name="Close"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Options">
+		<MenuItem name ="Settings">
+			<Window name="Settings"></Window>
+		</MenuItem>
+		<MenuItem name ="Start Slideshow">
+			<Action name="Toggle Slideshow"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Window">
+		<MenuItem name ="Maximize">
+			<Action name="Maximize"/>
+		</MenuItem>
+		<MenuItem name ="Minimize">
+			<Action name="Minimize"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem name="Help">
+		<MenuItem name ="About">
+			<Window name="Dialog" content="text" title="About ImageViewer">
+				<Text><b>ImageViewer</b> is a Seashell App for viewing 2D and 3D photos. Browse your photo gallery or import new images from external storage devices.</Text>
+			</Window>
+		</MenuItem>
+	</MenuItem>
+</Menu>

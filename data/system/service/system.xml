@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Application name="system">
+	<ReadLines result="username" value="$1"/>
+	<Function name="Start">
+		<Run function="LoadXMLData $library $library_path"/>
+		<OpenWindow window="MainMenu"/>
+		<CreateWindow>
+			<Window name="LoadingScreen">
+				<Body>
+					<Sprite sprite="images/logo_64px.png" align="center"/>
+				</Body>
+				<Footer enabled="true">
+					<Text name="LogText" textAlign="left" fillParent="true"/>
+				</Footer>
+			</Window>
+		</CreateWindow>
+		<SetDisplay window="MainMenu" display="Main"/>
+		<Shell command="login player1"/>
+		<Run function="Login" output="$LogText.text"/>
+	</Function>
+	<Function name="Login">
+		<String name="$world" value="$1"/>
+		<LoadWorld name="$world"/>
+	</Function>
+</Application>
