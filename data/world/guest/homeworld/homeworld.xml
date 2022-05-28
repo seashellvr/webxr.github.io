@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <World name="homeworld" title="SeashellVR" lang="en" os_version="0.1.4-12">
-  <Scene name="HomeScene" title="Home" class="home" motion="enabled" wait="false" size="850" skybox="daytime360" spinY="-0.0015" isIndoors="true" dashboard="enabled" playerPosition="1.43887,2.56975,6.34447" playerRotation="0,129.6309,0">
+  <Scene name="HomeScene" title="Home" class="home" motion="enabled" wait="false" size="850" skybox="daytime360" spinY="-0.0015" isIndoors="true" dashboard="enabled" playerPosition="0,2.56975,0" playerRotation="0,129.6309,0">
     <App name="Dashboard" followPlayer="true" />
     <Environment name="IslandEnv" motion="enabled" wait="false" hideDashboard="false">
       <Object name="Ocean" model="ocean" scale="960,1,960" position="-80,-2.25,100" hover="0.2,0.1" />
