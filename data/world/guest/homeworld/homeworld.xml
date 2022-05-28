@@ -20,7 +20,7 @@
         <Action name="PassengerSeat" label="Sit Down" action="Drive" isPassengerSeat="true" position="0.35,0,0.3" rotation="0,0,0" type="carseat" seatHeight="-0.35" />
       </Vehicle>
       <Object name="Island" model="island" position="1,0,0" rotation="0,180,0" scale="1.25,1.25,1.25" />
-      <Zone name="HomeZone" position="1.25,1.63,-0.45" scale="10,5,14" type="indoors" />
+      <Zone name="HomeZone" position="1.25,1.63,-0.45" scale="10,5,15" type="indoors" />
       <Object name="Ligthouse" model="lighthouse" position="-171,42,402" rotation="0,180,0" scale="1.25,1.25,1.25">
         <Zone name="Ligthouse" model="lighthouse" position="0,21,0" scale="5,5,5" />
       </Object>
